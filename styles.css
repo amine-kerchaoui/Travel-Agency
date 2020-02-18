@@ -1,0 +1,214 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+/*---------------------------- header --------------------*/
+.header .content-box {
+	width: 100%;
+	max-height: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+menu {
+	display: inline-flex;
+}
+.menu button {
+	top: 15px;
+	right: 80px;
+	padding: 5px 10px;
+	background: #335eff;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 25%;
+
+	position: absolute;
+}
+.menu button .fa {
+	margin-right: 10px;
+}
+.banner-text {
+	color: #fff;
+	text-align: center;
+	height: 100%;
+	margin-bottom: auto;
+}
+.banner-text h2 {
+	font-size: 64px;
+	margin-top: 15%;
+}
+.banner-text pre {
+	font-size: 24px;
+	color: #fff;
+	margin-top: 5%;
+}
+.banner-text a {
+	text-decoration: none;
+	background: #335eff;
+	color: #fff;
+
+	width: 180px;
+	border: 1px solid #335eff;
+	display: block;
+	transition: 1s;
+	padding: 10px;
+	margin: auto;
+}
+.banner-text a:hover {
+	background: transparent;
+}
+.vide {
+	margin-top: 10px;
+}
+/*--------------------------- About Us ----------------------*/
+.content-box {
+	width: 100%;
+	height: 100%;
+	background: #f4f3ff;
+	color: ;
+}
+h1 {
+	color: black;
+	text-align: center;
+	padding-top: 100px;
+}
+h1::after {
+	content: '';
+	background: #335eff;
+	display: block;
+	width: 170px;
+	height: 3px;
+	margin: 20px auto 50px;
+}
+
+h3 {
+	color: black;
+}
+
+.service .icon {
+	font-size: 16px;
+	margin: 10px auto;
+	color: #335eff;
+}
+.service .icon .fa {
+	font-size: 50px;
+	padding: 10px;
+}
+
+.content-box p {
+	font-size: 12px;
+	color: rgb(99, 85, 85);
+	margin-top: 10px;
+	padding: 20px;
+}
+.content-box span {
+	color: #335eff;
+	transition: .5s;
+}
+.content-box .col-md-4:hover {
+	background: #335eff;
+	color: #fff;
+	box-shadow: -1px 5px 10px 0, rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	transition: .5s;
+}
+.content-box .col-md-4:hover .icon {
+	color: #fff;
+}
+.content-box .col-md-4:hover p {
+	color: #fff;
+}
+.content-box .col-md-4:hover span {
+	color: #fff;
+}
+/*------------------------- feature-----------------------*/
+.feature h4 {
+	margin-top: 10px;
+}
+.feature h4::after {
+	content: '';
+	background: #335eff;
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	margin: 10px auto 10px;
+}
+.feature ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.feature ul li {
+	line-height: 40px;
+	font-size: 14px;
+	position: relative;
+}
+.feature ul li::after {
+	content: '';
+	position: absolute;
+	background: #335eff;
+	width: 7px;
+	height: 7px;
+	transform: rotate(45deg);
+	left: -25px;
+	top: 20px;
+}
+.feature video {
+	margin-top: 20px;
+	width: 550px;
+}
+/*-------------------footer-----------------*/
+.contact-form {
+	border-radius: 0;
+	border: none !important;
+	box-shadow: none !important;
+}
+.contact-form .group-form {
+	padding: 15px;
+	margin: 15px;
+	width: 400px;
+	border: 0;
+	background: #fff;
+}
+::placeholder {
+	font-size: 12px;
+}
+.contact-form button {
+	border: none !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	background: #335eff;
+	margin-left: 50px;
+}
+
+.contact-info .follow {
+	background: #fff;
+	padding: 15px;
+	margin: 15px;
+	width: 400px;
+}
+.contact-info .fa {
+	padding-right: 20px;
+	color: #335eff;
+	font-weight: bold;
+	font-size: 25px;
+}
+.contact-info .follow span {
+	color: black;
+	font-style: 20px;
+}
+.container hr {
+	background: #335eff;
+	margin: 50px;
+}
+.copyright {
+	text-align: center;
+	font-size: 14px;
+}
+.fa-copyright {
+	color: red;
+	font-size: 16px;
+}
